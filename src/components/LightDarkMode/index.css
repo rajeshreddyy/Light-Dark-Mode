@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.container {
+  border: 1px solid #000000;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.bg-container {
+  padding-top: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.button {
+  border: 1px solid #000000;
+  /* border-width: 0; */
+  cursor: pointer;
+  border-radius: 5px;
+  height: 35px;
+  width: auto;
+  padding: auto;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
